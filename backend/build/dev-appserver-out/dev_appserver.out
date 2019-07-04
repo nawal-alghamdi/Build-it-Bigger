@@ -1,0 +1,23 @@
+Jun 30, 2019 8:55:18 AM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Jun 30, 2019 8:55:18 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\nawal\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\nawal\AndroidStudioProjects\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2019-06-30 08:55:19.075:INFO::main: Logging initialized @609ms to org.eclipse.jetty.util.log.StdErrLog
+2019-06-30 08:55:19.168:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Jun 30, 2019 5:55:19 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\nawal\AndroidStudioProjects\ud867-master\FinalProject\backend) is not equal to your 
+web application root (C:\Users\nawal\AndroidStudioProjects\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2019-06-30 08:55:19.572:INFO:oejs.Server:main: jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_152-release-1343-b01
+2019-06-30 08:55:20.403:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@72bc6553{/,file:///C:/Users/nawal/AndroidStudioProjects/ud867-master/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\Users\nawal\AndroidStudioProjects\ud867-master\FinalProject\backend\build\exploded-backend}
+2019-06-30 08:55:20.403:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-06-30 08:55:20.403:INFO:oejs.session:main: node0 Scavenging disabled
+2019-06-30 08:55:20.429:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@3e9b1010{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-06-30 08:55:20.430:INFO:oejs.Server:main: Started @1963ms
+Jun 30, 2019 5:55:20 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Jun 30, 2019 5:55:20 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Jun 30, 2019 8:55:20 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
