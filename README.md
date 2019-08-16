@@ -24,3 +24,18 @@ behavior of the Gradle build tool, allowing automation of repetitive tasks.
 Particularly, factoring functionality into libraries and creating product
 flavors allow for much bigger projects with minimal added complexity.
 
+
+## Project screenshots
+#### Main Activity
+
+##### Free Flavor
+
+<img src = "screenshots/Screenshot_free_mainActivity.png" width = "200">
+
+##### Paid Flavor
+
+<img src = "screenshots/Screenshot_paid_mainActivity.png" width = "200">
+ 
+#### Joke Activity(This is the android library activity, and I used it for both free an paid flavores)
+
+<img src = "screenshots/Screenshot_android_library_activity.png" width = "200">
